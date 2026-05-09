@@ -256,7 +256,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "POV_PCB.kicad_pro",
+    "filename": "Royer_coil.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -366,42 +366,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Type",
-          "name": "Sim.Type",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -441,62 +411,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "POV_PCB.kicad_sch",
-        "name": "Root",
-        "uuid": "3afa3ff0-7468-40d6-8c9c-465387d526cc"
+        "filename": "Royer_coil.kicad_sch",
+        "name": "Royer_coil",
+        "uuid": "6c8704f5-b901-4e05-9854-43f65724e400"
       }
     ],
-    "used_designators": "",
+    "used_designators": "L**1,U1-2",
     "variants": []
   },
   "sheets": [
     [
-      "3afa3ff0-7468-40d6-8c9c-465387d526cc",
-      "Root"
-    ],
-    [
-      "8965e9f9-d1d9-46a6-821f-72a06d8a7348",
-      "Royer Convertor"
-    ],
-    [
-      "48b03a9c-a559-47f5-a77e-b5fb9521884e",
-      "Motor Controller"
-    ],
-    [
-      "33a9973b-6b63-4d85-961e-8586483928b3",
-      "Display Board"
-    ],
-    [
-      "7260814b-79ed-43d7-9862-0864fd38134d",
-      "LED1"
-    ],
-    [
-      "e4c420b7-2bed-4294-9bfb-724275382f6b",
-      "LED2"
-    ],
-    [
-      "e532e283-81d8-4c70-95c6-c36787ed450d",
-      "LED4"
-    ],
-    [
-      "613b6625-dede-4e48-affc-6f076df33c4b",
-      "LED3"
-    ],
-    [
-      "c960a77c-8816-4d52-b8be-59e4e64d76de",
-      "LED5"
-    ],
-    [
-      "2cbef106-d092-4166-921d-6c29812e99d7",
-      "LED6"
-    ],
-    [
-      "3705613f-70f9-43c7-9cec-0aa2eb513380",
-      "LED7"
-    ],
-    [
-      "7e614dd5-b5c5-40ff-9d2f-da256215e1b8",
-      "LED8"
+      "6c8704f5-b901-4e05-9854-43f65724e400",
+      "Royer_coil"
     ]
   ],
   "text_variables": {},

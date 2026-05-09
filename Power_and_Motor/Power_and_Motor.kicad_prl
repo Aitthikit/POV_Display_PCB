@@ -63,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "POV_PCB.kicad_prl",
+    "filename": "Power_and_Motor.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -88,9 +88,7 @@
     "files": []
   },
   "schematic": {
-    "hierarchy_collapsed": [
-      "/33a9973b-6b63-4d85-961e-8586483928b3/"
-    ],
+    "hierarchy_collapsed": [],
     "selection_filter": {
       "graphics": true,
       "images": true,
