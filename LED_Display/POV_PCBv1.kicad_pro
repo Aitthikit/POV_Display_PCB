@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 2.0,
-          "width": 2.0
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -472,14 +472,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Power_and_Motor.kicad_pro",
+    "filename": "POV_PCBv1.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.18,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -490,41 +490,11 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "clearance": 0.18,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "HighVolt",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.5,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.18,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "coil",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.7,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
       }
     ],
     "meta": {
@@ -532,24 +502,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "coil",
-        "pattern": "Net-(Q1-B)"
-      },
-      {
-        "netclass": "HighVolt",
-        "pattern": "+12V"
-      },
-      {
-        "netclass": "coil",
-        "pattern": "Net-(Q1-C)"
-      },
-      {
-        "netclass": "HighVolt",
-        "pattern": "GND"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -629,12 +582,42 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -674,18 +657,50 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Power_and_Motor.kicad_sch",
-        "name": "Power_and_Motor",
-        "uuid": "a5ba336c-dd09-4f00-84d5-6fadf1885f61"
+        "filename": "POV_PCB.kicad_sch",
+        "name": "Root",
+        "uuid": "3afa3ff0-7468-40d6-8c9c-465387d526cc"
       }
     ],
-    "used_designators": "D1-2,#PWR1-4,#PWR6-11,C1-6,U1-7,M1,R1-3,RV1,SW1,L1-5,Q1-3",
+    "used_designators": "L1,L5,D3-70,#PWR5,#PWR12-30,A1,C7-16,R2,R5-12,RN1-8,U3-11",
     "variants": []
   },
   "sheets": [
     [
-      "a5ba336c-dd09-4f00-84d5-6fadf1885f61",
-      "Power_and_Motor"
+      "3afa3ff0-7468-40d6-8c9c-465387d526cc",
+      "Root"
+    ],
+    [
+      "6e426bdd-d462-498f-aa79-ce01432eef46",
+      "LED1"
+    ],
+    [
+      "323ae675-5a74-499a-9cdb-798a19800f0b",
+      "LED2"
+    ],
+    [
+      "4ae27a8b-4d26-4226-bc44-6ed3e916d4b5",
+      "LED3"
+    ],
+    [
+      "8331e3e8-c22f-469b-a83b-eb2195bb68c8",
+      "LED4"
+    ],
+    [
+      "9bd1dbac-da40-446c-b00d-c82b3e584b7b",
+      "LED5"
+    ],
+    [
+      "044caca4-1067-4dd5-992c-a77059c6856b",
+      "LED6"
+    ],
+    [
+      "71c26924-1003-4aab-a0bb-49e6d7e33ef3",
+      "LED7"
+    ],
+    [
+      "5d9d1ca7-ca5d-444b-8ba0-553aaabfd845",
+      "LED8"
     ]
   ],
   "text_variables": {},

@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 2.0,
-          "width": 2.0
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -472,14 +472,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Power_and_Motor.kicad_pro",
+    "filename": "LED_DisplayV1.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.18,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -490,41 +490,11 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "clearance": 0.18,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "HighVolt",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.5,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.18,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "coil",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.7,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
       }
     ],
     "meta": {
@@ -532,24 +502,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "coil",
-        "pattern": "Net-(Q1-B)"
-      },
-      {
-        "netclass": "HighVolt",
-        "pattern": "+12V"
-      },
-      {
-        "netclass": "coil",
-        "pattern": "Net-(Q1-C)"
-      },
-      {
-        "netclass": "HighVolt",
-        "pattern": "GND"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -674,18 +627,50 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Power_and_Motor.kicad_sch",
-        "name": "Power_and_Motor",
-        "uuid": "a5ba336c-dd09-4f00-84d5-6fadf1885f61"
+        "filename": "LED_DisplayV1.kicad_sch",
+        "name": "Root",
+        "uuid": "d4a99f46-7c8c-41a4-9482-559673175209"
       }
     ],
-    "used_designators": "D1-2,#PWR1-4,#PWR6-11,C1-6,U1-7,M1,R1-3,RV1,SW1,L1-5,Q1-3",
+    "used_designators": "L1,D3-70,#PWR5,#PWR12-14,#PWR23-40,A1,C7-8,C14-22,R2,R5,R11-18,U3-11,RN1-8",
     "variants": []
   },
   "sheets": [
     [
-      "a5ba336c-dd09-4f00-84d5-6fadf1885f61",
-      "Power_and_Motor"
+      "d4a99f46-7c8c-41a4-9482-559673175209",
+      "Root"
+    ],
+    [
+      "d42d8dce-7752-4dc1-a310-9649c32d01ec",
+      "LED1"
+    ],
+    [
+      "c1c09749-2db6-4cf0-9aa6-e152b0a77dcd",
+      "LED2"
+    ],
+    [
+      "acf7ea65-3491-4fbe-948e-6cb01756c81f",
+      "LED3"
+    ],
+    [
+      "76acf5c3-ef3f-47ff-8383-3128aca97965",
+      "LED4"
+    ],
+    [
+      "7f460fd9-69ec-437e-be33-f8a5fee7c072",
+      "LED5"
+    ],
+    [
+      "6c6e2f77-a520-4c33-802b-4cccb1bfc372",
+      "LED6"
+    ],
+    [
+      "5ded5184-e2ac-49e3-930e-56cefbd0c07b",
+      "LED7"
+    ],
+    [
+      "1d038151-168f-4ffb-b417-9434b072fcd3",
+      "LED8"
     ]
   ],
   "text_variables": {},

@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "TPIC6C595N") (type "KiCad") (uri "${KIPRJMOD}/TPIC6C595N.pretty") (options "") (descr ""))
+)

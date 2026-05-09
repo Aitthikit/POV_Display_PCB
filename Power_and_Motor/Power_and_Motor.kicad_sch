@@ -337,184 +337,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1915,6 +1737,104 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "my_symbols:Pin-Connector"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Pin-Connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Pin-Connector_0_1"
+				(circle
+					(center 0 -2.54)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Pin-Connector_1_1"
+				(pin input line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "Pin1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "my_symbols:coil_2size"
 			(pin_names
 				(offset 1.016)
@@ -2511,6 +2431,12 @@
 		(uuid "357524cf-e02a-462e-b92f-71911d66778d")
 	)
 	(junction
+		(at 139.7 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e28d05c-3703-4541-acab-eeb159cf8629")
+	)
+	(junction
 		(at 151.13 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2539,6 +2465,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68159f9c-825b-4023-bacc-c08399b23ad0")
+	)
+	(junction
+		(at 151.13 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "882a1f8c-1dae-437b-8c15-4d13790c4f5e")
 	)
 	(junction
 		(at 199.39 96.52)
@@ -2575,6 +2507,30 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5f49f36-8845-41cd-82e6-0d5e934da73e")
+	)
+	(junction
+		(at 153.67 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7dd9d25-0167-4312-8889-d150a44abbc8")
+	)
+	(junction
+		(at 132.08 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de4c6b26-2a7e-4449-87e4-042c6766ad20")
+	)
+	(junction
+		(at 143.51 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e535c32c-62ae-4bc7-b3e5-42936e8aa529")
+	)
+	(junction
+		(at 161.29 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec491396-018f-482d-8cca-0569ec7b8fd8")
 	)
 	(junction
 		(at 114.3 45.72)
@@ -2686,6 +2642,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 38.1) (xy 151.13 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c99d5a1-afb6-4e77-9e13-72b06036367d")
+	)
+	(wire
+		(pts
 			(xy 152.4 38.1) (xy 151.13 38.1)
 		)
 		(stroke
@@ -2776,6 +2742,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 38.1) (xy 139.7 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "564c5b58-3285-4796-9a69-ba0739ebecf9")
+	)
+	(wire
+		(pts
 			(xy 137.16 114.3) (xy 137.16 120.65)
 		)
 		(stroke
@@ -2853,6 +2829,16 @@
 			(type default)
 		)
 		(uuid "7d9054d5-d618-479c-816f-a961a61d5147")
+	)
+	(wire
+		(pts
+			(xy 153.67 38.1) (xy 161.29 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80ec595b-f353-4232-a0fe-29f9505eeaf0")
 	)
 	(wire
 		(pts
@@ -3235,6 +3221,83 @@
 		(uuid "f98a5011-3b6d-4559-a7fe-e43bfb70a07a")
 	)
 	(symbol
+		(lib_id "my_symbols:Pin-Connector")
+		(at 151.13 38.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0259ce66-7b9e-41a8-b8d4-c8aeff8dccef")
+		(property "Reference" "U6"
+			(at 151.13 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pin-Connector"
+			(at 155.6512 34.3916 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "my_footprints:Pin_2mm"
+			(at 151.13 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0601b5ba-e809-4b65-b4c4-809c2f8f554a")
+		)
+		(instances
+			(project "Power_and_Motor"
+				(path "/a5ba336c-dd09-4f00-84d5-6fadf1885f61"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
 		(at 189.23 93.98 0)
 		(unit 1)
@@ -3321,88 +3384,6 @@
 			(project "Power_and_Motor"
 				(path "/a5ba336c-dd09-4f00-84d5-6fadf1885f61"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 147.32 38.1 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b9ad7f6-3b81-4bc2-a836-a5e133638239")
-		(property "Reference" "L3"
-			(at 147.32 33.02 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L"
-			(at 147.32 35.56 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 147.32 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "40983656-abf7-4e7b-a4c4-86b6ed5fc32b")
-		)
-		(pin "1"
-			(uuid "e5ddc343-2d3c-4e36-a3e7-b0d5f96616e8")
-		)
-		(instances
-			(project "Power_and_Motor"
-				(path "/a5ba336c-dd09-4f00-84d5-6fadf1885f61"
-					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -3564,6 +3545,83 @@
 			(project "Power_and_Motor"
 				(path "/a5ba336c-dd09-4f00-84d5-6fadf1885f61"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "my_symbols:Pin-Connector")
+		(at 148.59 38.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "12d23ad0-d8cf-4e41-8129-90689fdc3418")
+		(property "Reference" "U5"
+			(at 148.59 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pin-Connector"
+			(at 153.1112 34.3916 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "my_footprints:Pin_2mm"
+			(at 148.59 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16ec4d93-a66e-4f49-adde-54bbfb0e1a38")
+		)
+		(instances
+			(project "Power_and_Motor"
+				(path "/a5ba336c-dd09-4f00-84d5-6fadf1885f61"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3759,7 +3817,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 146.05 67.945 0)
 			(hide yes)
 			(show_name no)
@@ -3920,6 +3978,237 @@
 		)
 	)
 	(symbol
+		(lib_id "my_symbols:Pin-Connector")
+		(at 137.16 38.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4aa3394a-f7a0-4c7e-b79e-4287cc4e0181")
+		(property "Reference" "U3"
+			(at 137.16 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pin-Connector"
+			(at 141.6812 34.3916 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "my_footprints:Pin_2mm"
+			(at 137.16 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "783b80c0-56d6-42d7-89b7-addfaf1f5cda")
+		)
+		(instances
+			(project "Power_and_Motor"
+				(path "/a5ba336c-dd09-4f00-84d5-6fadf1885f61"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "my_symbols:Pin-Connector")
+		(at 129.54 38.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4f356770-f86b-4a57-b0a8-596de835313d")
+		(property "Reference" "U2"
+			(at 129.54 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pin-Connector"
+			(at 134.0612 34.3916 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "my_footprints:Pin_2mm"
+			(at 129.54 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f87e4d7-b674-4321-97a2-93e2f643699e")
+		)
+		(instances
+			(project "Power_and_Motor"
+				(path "/a5ba336c-dd09-4f00-84d5-6fadf1885f61"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "my_symbols:Pin-Connector")
+		(at 140.97 38.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a53dab2-1d15-43e6-a714-4fc1d60d549c")
+		(property "Reference" "U4"
+			(at 140.97 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pin-Connector"
+			(at 145.4912 34.3916 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "my_footprints:Pin_2mm"
+			(at 140.97 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "49e07cef-8edc-4430-86e6-fcd74436c1df")
+		)
+		(instances
+			(project "Power_and_Motor"
+				(path "/a5ba336c-dd09-4f00-84d5-6fadf1885f61"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 143.51 76.2 0)
 		(unit 1)
@@ -4074,88 +4363,6 @@
 			(project "Power_and_Motor"
 				(path "/a5ba336c-dd09-4f00-84d5-6fadf1885f61"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 157.48 38.1 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6aee9d56-2b24-4f82-bd34-8a2213fb74a8")
-		(property "Reference" "L4"
-			(at 157.48 33.02 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L"
-			(at 157.48 35.56 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 157.48 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ced308b2-adad-487e-ad78-76352d38d315")
-		)
-		(pin "1"
-			(uuid "76639499-f419-4df7-b156-3322d3eb650f")
-		)
-		(instances
-			(project "Power_and_Motor"
-				(path "/a5ba336c-dd09-4f00-84d5-6fadf1885f61"
-					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -4526,8 +4733,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 135.89 38.1 90)
+		(lib_id "my_symbols:Pin-Connector")
+		(at 158.75 38.1 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4535,10 +4742,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80ddee62-aff1-46e2-a348-9523cf3c972d")
-		(property "Reference" "L2"
-			(at 135.89 33.02 90)
+		(uuid "84c28d9b-8da9-4a14-bfa6-1e34b026eab9")
+		(property "Reference" "U7"
+			(at 158.75 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4548,19 +4754,19 @@
 				)
 			)
 		)
-		(property "Value" "L"
-			(at 135.89 35.56 90)
-			(hide yes)
+		(property "Value" "Pin-Connector"
+			(at 163.2712 34.3916 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 135.89 38.1 0)
+		(property "Footprint" "my_footprints:Pin_2mm"
+			(at 158.75 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4571,7 +4777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 38.1 0)
+			(at 158.75 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4581,9 +4787,8 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
-			(at 135.89 38.1 0)
-			(hide yes)
+		(property "Description" ""
+			(at 158.75 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4591,17 +4796,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "2d2347b7-149c-4537-b84c-de41693da14a")
 		)
 		(pin "1"
-			(uuid "cce90ba1-e0a9-44ee-b923-202c443d509a")
+			(uuid "d6288850-7153-42af-8c30-b72047cea5bd")
 		)
 		(instances
 			(project "Power_and_Motor"
 				(path "/a5ba336c-dd09-4f00-84d5-6fadf1885f61"
-					(reference "L2")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -4865,6 +5067,116 @@
 			(project "Power_and_Motor"
 				(path "/a5ba336c-dd09-4f00-84d5-6fadf1885f61"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC337")
+		(at 158.75 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b23fe97f-995d-480d-8d4e-07bc27332e91")
+		(property "Reference" "Q2"
+			(at 163.83 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC337"
+			(at 163.83 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
+			(at 163.83 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
+			(at 158.75 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, TO-92"
+			(at 158.75 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 158.75 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 158.75 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "be638c00-0385-4c9e-9f08-f285205cba59")
+		)
+		(pin "3"
+			(uuid "b20dbeb5-7529-4fe7-82f8-21989cc847ee")
+		)
+		(pin "1"
+			(uuid "ddd45dd3-7a30-458d-91c0-4d32278c8e96")
+		)
+		(instances
+			(project "Power_and_Motor"
+				(path "/a5ba336c-dd09-4f00-84d5-6fadf1885f61"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -5343,116 +5655,6 @@
 			(project "Power_and_Motor"
 				(path "/a5ba336c-dd09-4f00-84d5-6fadf1885f61"
 					(reference "M1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC337")
-		(at 158.75 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec40c863-299c-41ad-ac0b-dee3f22ad285")
-		(property "Reference" "Q2"
-			(at 163.83 64.7699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC337"
-			(at 163.83 67.3099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 163.83 67.945 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
-			(at 158.75 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, TO-92"
-			(at 158.75 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 158.75 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 158.75 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d7127361-f88e-4938-8a05-de7ce26c01f2")
-		)
-		(pin "3"
-			(uuid "7eb5c244-f6cf-4e24-8371-22d2ed05eb07")
-		)
-		(pin "1"
-			(uuid "6fd12898-265e-4e6a-84b1-ebdc4c7b7310")
-		)
-		(instances
-			(project "Power_and_Motor"
-				(path "/a5ba336c-dd09-4f00-84d5-6fadf1885f61"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
