@@ -3899,7 +3899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08ea34a6-7127-4d1e-b7a0-ff5115cbef6a")
-		(property "Reference" "C7"
+		(property "Reference" "C2"
 			(at 238.76 107.0609 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3963,7 +3963,7 @@
 		(instances
 			(project "LED_DisplayV1"
 				(path "/d4a99f46-7c8c-41a4-9482-559673175209"
-					(reference "C7")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3981,7 +3981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0945b436-76f2-4e64-b18a-3e4f801f59b3")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 257.81 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -4041,7 +4041,7 @@
 		(instances
 			(project "LED_DisplayV1"
 				(path "/d4a99f46-7c8c-41a4-9482-559673175209"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4059,7 +4059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fd9fb26-f024-4ff5-a9a0-31040f29d185")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR03"
 			(at 234.95 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4119,7 +4119,7 @@
 		(instances
 			(project "LED_DisplayV1"
 				(path "/d4a99f46-7c8c-41a4-9482-559673175209"
-					(reference "#PWR030")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4137,7 +4137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "531fd4af-fd5a-4dd3-94fd-736692fe532d")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR02"
 			(at 222.25 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4197,7 +4197,7 @@
 		(instances
 			(project "LED_DisplayV1"
 				(path "/d4a99f46-7c8c-41a4-9482-559673175209"
-					(reference "#PWR012")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4215,7 +4215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5352842c-f0a2-495e-82f5-c59d550dd21e")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 251.46 126.6824 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4279,7 +4279,7 @@
 		(instances
 			(project "LED_DisplayV1"
 				(path "/d4a99f46-7c8c-41a4-9482-559673175209"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4377,7 +4377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3656ad3-094a-42ba-98e5-411dab65dfab")
-		(property "Reference" "D69"
+		(property "Reference" "D3"
 			(at 269.24 111.4424 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4441,7 +4441,7 @@
 		(instances
 			(project "LED_DisplayV1"
 				(path "/d4a99f46-7c8c-41a4-9482-559673175209"
-					(reference "D69")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4459,7 +4459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a540293a-564b-471e-b2a9-cb0d92a052ed")
-		(property "Reference" "D70"
+		(property "Reference" "D4"
 			(at 269.24 126.6824 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4523,7 +4523,7 @@
 		(instances
 			(project "LED_DisplayV1"
 				(path "/d4a99f46-7c8c-41a4-9482-559673175209"
-					(reference "D70")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4541,7 +4541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b194f88c-1d08-4234-8a10-887f63de53cf")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR01"
 			(at 143.51 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -4601,7 +4601,7 @@
 		(instances
 			(project "LED_DisplayV1"
 				(path "/d4a99f46-7c8c-41a4-9482-559673175209"
-					(reference "#PWR029")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4619,7 +4619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b38b3cec-b005-491f-979e-2d3a44077e8a")
-		(property "Reference" "D68"
+		(property "Reference" "D1"
 			(at 251.46 111.4424 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4683,7 +4683,7 @@
 		(instances
 			(project "LED_DisplayV1"
 				(path "/d4a99f46-7c8c-41a4-9482-559673175209"
-					(reference "D68")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4700,7 +4700,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ddfa4794-ea08-499e-ae8a-49fe63bbea29")
-		(property "Reference" "U11"
+		(property "Reference" "U1"
 			(at 176.149 129.1082 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4766,7 +4766,7 @@
 		(instances
 			(project "LED_DisplayV1"
 				(path "/d4a99f46-7c8c-41a4-9482-559673175209"
-					(reference "U11")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -4783,7 +4783,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1dd2aae-d42e-4731-b78c-53a7c04db7bd")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 171.958 152.5016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4846,7 +4846,7 @@
 		(instances
 			(project "LED_DisplayV1"
 				(path "/d4a99f46-7c8c-41a4-9482-559673175209"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5029,7 +5029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffc874a7-7234-47a4-925b-2f9f186316d9")
-		(property "Reference" "C16"
+		(property "Reference" "C1"
 			(at 226.06 107.0609 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5093,7 +5093,7 @@
 		(instances
 			(project "LED_DisplayV1"
 				(path "/d4a99f46-7c8c-41a4-9482-559673175209"
-					(reference "C16")
+					(reference "C1")
 					(unit 1)
 				)
 			)

@@ -2303,7 +2303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b465693-046b-438c-a8a1-0462d8bd3732")
-		(property "Reference" "D60"
+		(property "Reference" "D5"
 			(at 170.18 91.7574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2378,7 +2378,35 @@
 		(instances
 			(project "LED_DisplayV1"
 				(path "/d4a99f46-7c8c-41a4-9482-559673175209/1d038151-168f-4ffb-b417-9434b072fcd3"
-					(reference "D60")
+					(reference "D61")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/5ded5184-e2ac-49e3-930e-56cefbd0c07b"
+					(reference "D53")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/6c6e2f77-a520-4c33-802b-4cccb1bfc372"
+					(reference "D52")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/76acf5c3-ef3f-47ff-8383-3128aca97965"
+					(reference "D29")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/7f460fd9-69ec-437e-be33-f8a5fee7c072"
+					(reference "D44")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/acf7ea65-3491-4fbe-948e-6cb01756c81f"
+					(reference "D21")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/c1c09749-2db6-4cf0-9aa6-e152b0a77dcd"
+					(reference "D13")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/d42d8dce-7752-4dc1-a310-9649c32d01ec"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -2396,7 +2424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23a24ffc-543f-4920-a251-d70cc25208d8")
-		(property "Reference" "D65"
+		(property "Reference" "D10"
 			(at 214.63 91.7574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2471,7 +2499,35 @@
 		(instances
 			(project "LED_DisplayV1"
 				(path "/d4a99f46-7c8c-41a4-9482-559673175209/1d038151-168f-4ffb-b417-9434b072fcd3"
-					(reference "D65")
+					(reference "D66")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/5ded5184-e2ac-49e3-930e-56cefbd0c07b"
+					(reference "D58")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/6c6e2f77-a520-4c33-802b-4cccb1bfc372"
+					(reference "D47")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/76acf5c3-ef3f-47ff-8383-3128aca97965"
+					(reference "D34")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/7f460fd9-69ec-437e-be33-f8a5fee7c072"
+					(reference "D39")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/acf7ea65-3491-4fbe-948e-6cb01756c81f"
+					(reference "D26")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/c1c09749-2db6-4cf0-9aa6-e152b0a77dcd"
+					(reference "D18")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/d42d8dce-7752-4dc1-a310-9649c32d01ec"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -2489,7 +2545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b84d592-4dfe-48cb-ab0b-3e886c47f65b")
-		(property "Reference" "R18"
+		(property "Reference" "R2"
 			(at 95.25 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2553,7 +2609,35 @@
 		(instances
 			(project "LED_DisplayV1"
 				(path "/d4a99f46-7c8c-41a4-9482-559673175209/1d038151-168f-4ffb-b417-9434b072fcd3"
-					(reference "R18")
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/5ded5184-e2ac-49e3-930e-56cefbd0c07b"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/6c6e2f77-a520-4c33-802b-4cccb1bfc372"
+					(reference "R7")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/76acf5c3-ef3f-47ff-8383-3128aca97965"
+					(reference "R5")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/7f460fd9-69ec-437e-be33-f8a5fee7c072"
+					(reference "R6")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/acf7ea65-3491-4fbe-948e-6cb01756c81f"
+					(reference "R4")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/c1c09749-2db6-4cf0-9aa6-e152b0a77dcd"
+					(reference "R3")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/d42d8dce-7752-4dc1-a310-9649c32d01ec"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2571,7 +2655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fbee9c3-fb3e-4708-91b1-ad8c03de3281")
-		(property "Reference" "D61"
+		(property "Reference" "D6"
 			(at 179.07 91.7574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2646,7 +2730,35 @@
 		(instances
 			(project "LED_DisplayV1"
 				(path "/d4a99f46-7c8c-41a4-9482-559673175209/1d038151-168f-4ffb-b417-9434b072fcd3"
-					(reference "D61")
+					(reference "D62")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/5ded5184-e2ac-49e3-930e-56cefbd0c07b"
+					(reference "D54")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/6c6e2f77-a520-4c33-802b-4cccb1bfc372"
+					(reference "D51")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/76acf5c3-ef3f-47ff-8383-3128aca97965"
+					(reference "D30")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/7f460fd9-69ec-437e-be33-f8a5fee7c072"
+					(reference "D43")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/acf7ea65-3491-4fbe-948e-6cb01756c81f"
+					(reference "D22")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/c1c09749-2db6-4cf0-9aa6-e152b0a77dcd"
+					(reference "D14")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/d42d8dce-7752-4dc1-a310-9649c32d01ec"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -2664,7 +2776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48487793-2eeb-4120-a243-d95a0e2194d4")
-		(property "Reference" "U10"
+		(property "Reference" "U2"
 			(at 129.794 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2770,7 +2882,35 @@
 		(instances
 			(project "LED_DisplayV1"
 				(path "/d4a99f46-7c8c-41a4-9482-559673175209/1d038151-168f-4ffb-b417-9434b072fcd3"
-					(reference "U10")
+					(reference "U9")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/5ded5184-e2ac-49e3-930e-56cefbd0c07b"
+					(reference "U8")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/6c6e2f77-a520-4c33-802b-4cccb1bfc372"
+					(reference "U7")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/76acf5c3-ef3f-47ff-8383-3128aca97965"
+					(reference "U5")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/7f460fd9-69ec-437e-be33-f8a5fee7c072"
+					(reference "U6")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/acf7ea65-3491-4fbe-948e-6cb01756c81f"
+					(reference "U4")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/c1c09749-2db6-4cf0-9aa6-e152b0a77dcd"
+					(reference "U3")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/d42d8dce-7752-4dc1-a310-9649c32d01ec"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2788,7 +2928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b94df02-fb0f-4af6-8325-f8464df5b302")
-		(property "Reference" "D67"
+		(property "Reference" "D12"
 			(at 232.41 91.7574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2863,7 +3003,35 @@
 		(instances
 			(project "LED_DisplayV1"
 				(path "/d4a99f46-7c8c-41a4-9482-559673175209/1d038151-168f-4ffb-b417-9434b072fcd3"
-					(reference "D67")
+					(reference "D68")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/5ded5184-e2ac-49e3-930e-56cefbd0c07b"
+					(reference "D60")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/6c6e2f77-a520-4c33-802b-4cccb1bfc372"
+					(reference "D45")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/76acf5c3-ef3f-47ff-8383-3128aca97965"
+					(reference "D36")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/7f460fd9-69ec-437e-be33-f8a5fee7c072"
+					(reference "D37")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/acf7ea65-3491-4fbe-948e-6cb01756c81f"
+					(reference "D28")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/c1c09749-2db6-4cf0-9aa6-e152b0a77dcd"
+					(reference "D20")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/d42d8dce-7752-4dc1-a310-9649c32d01ec"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -2881,7 +3049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80627b16-d921-40db-9be8-77f1306d8017")
-		(property "Reference" "D62"
+		(property "Reference" "D7"
 			(at 187.96 91.7574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2956,7 +3124,35 @@
 		(instances
 			(project "LED_DisplayV1"
 				(path "/d4a99f46-7c8c-41a4-9482-559673175209/1d038151-168f-4ffb-b417-9434b072fcd3"
-					(reference "D62")
+					(reference "D63")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/5ded5184-e2ac-49e3-930e-56cefbd0c07b"
+					(reference "D55")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/6c6e2f77-a520-4c33-802b-4cccb1bfc372"
+					(reference "D50")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/76acf5c3-ef3f-47ff-8383-3128aca97965"
+					(reference "D31")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/7f460fd9-69ec-437e-be33-f8a5fee7c072"
+					(reference "D42")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/acf7ea65-3491-4fbe-948e-6cb01756c81f"
+					(reference "D23")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/c1c09749-2db6-4cf0-9aa6-e152b0a77dcd"
+					(reference "D15")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/d42d8dce-7752-4dc1-a310-9649c32d01ec"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -2974,7 +3170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "831bca2a-6919-4939-8e08-1d29e2a15e9e")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR05"
 			(at 78.74 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3034,7 +3230,35 @@
 		(instances
 			(project "LED_DisplayV1"
 				(path "/d4a99f46-7c8c-41a4-9482-559673175209/1d038151-168f-4ffb-b417-9434b072fcd3"
-					(reference "#PWR039")
+					(reference "#PWR019")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/5ded5184-e2ac-49e3-930e-56cefbd0c07b"
+					(reference "#PWR017")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/6c6e2f77-a520-4c33-802b-4cccb1bfc372"
+					(reference "#PWR015")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/76acf5c3-ef3f-47ff-8383-3128aca97965"
+					(reference "#PWR011")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/7f460fd9-69ec-437e-be33-f8a5fee7c072"
+					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/acf7ea65-3491-4fbe-948e-6cb01756c81f"
+					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/c1c09749-2db6-4cf0-9aa6-e152b0a77dcd"
+					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/d42d8dce-7752-4dc1-a310-9649c32d01ec"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3052,7 +3276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8aafb122-db7d-41aa-bb19-351a027af3b1")
-		(property "Reference" "D66"
+		(property "Reference" "D11"
 			(at 223.52 91.7574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3127,7 +3351,35 @@
 		(instances
 			(project "LED_DisplayV1"
 				(path "/d4a99f46-7c8c-41a4-9482-559673175209/1d038151-168f-4ffb-b417-9434b072fcd3"
-					(reference "D66")
+					(reference "D67")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/5ded5184-e2ac-49e3-930e-56cefbd0c07b"
+					(reference "D59")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/6c6e2f77-a520-4c33-802b-4cccb1bfc372"
+					(reference "D46")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/76acf5c3-ef3f-47ff-8383-3128aca97965"
+					(reference "D35")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/7f460fd9-69ec-437e-be33-f8a5fee7c072"
+					(reference "D38")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/acf7ea65-3491-4fbe-948e-6cb01756c81f"
+					(reference "D27")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/c1c09749-2db6-4cf0-9aa6-e152b0a77dcd"
+					(reference "D19")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/d42d8dce-7752-4dc1-a310-9649c32d01ec"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -3145,7 +3397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af7dc79e-9a85-42a5-8e31-5495b5f45600")
-		(property "Reference" "D63"
+		(property "Reference" "D8"
 			(at 196.85 91.7574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3220,7 +3472,35 @@
 		(instances
 			(project "LED_DisplayV1"
 				(path "/d4a99f46-7c8c-41a4-9482-559673175209/1d038151-168f-4ffb-b417-9434b072fcd3"
-					(reference "D63")
+					(reference "D64")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/5ded5184-e2ac-49e3-930e-56cefbd0c07b"
+					(reference "D56")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/6c6e2f77-a520-4c33-802b-4cccb1bfc372"
+					(reference "D49")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/76acf5c3-ef3f-47ff-8383-3128aca97965"
+					(reference "D32")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/7f460fd9-69ec-437e-be33-f8a5fee7c072"
+					(reference "D41")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/acf7ea65-3491-4fbe-948e-6cb01756c81f"
+					(reference "D24")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/c1c09749-2db6-4cf0-9aa6-e152b0a77dcd"
+					(reference "D16")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/d42d8dce-7752-4dc1-a310-9649c32d01ec"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -3238,7 +3518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b57faff7-7746-4950-a5be-af009828bbf8")
-		(property "Reference" "D64"
+		(property "Reference" "D9"
 			(at 205.74 91.7574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3313,7 +3593,35 @@
 		(instances
 			(project "LED_DisplayV1"
 				(path "/d4a99f46-7c8c-41a4-9482-559673175209/1d038151-168f-4ffb-b417-9434b072fcd3"
-					(reference "D64")
+					(reference "D65")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/5ded5184-e2ac-49e3-930e-56cefbd0c07b"
+					(reference "D57")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/6c6e2f77-a520-4c33-802b-4cccb1bfc372"
+					(reference "D48")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/76acf5c3-ef3f-47ff-8383-3128aca97965"
+					(reference "D33")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/7f460fd9-69ec-437e-be33-f8a5fee7c072"
+					(reference "D40")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/acf7ea65-3491-4fbe-948e-6cb01756c81f"
+					(reference "D25")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/c1c09749-2db6-4cf0-9aa6-e152b0a77dcd"
+					(reference "D17")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/d42d8dce-7752-4dc1-a310-9649c32d01ec"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -3331,7 +3639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4b0d200-bdca-456b-a75d-f17420f3ef73")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR06"
 			(at 160.02 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -3391,7 +3699,35 @@
 		(instances
 			(project "LED_DisplayV1"
 				(path "/d4a99f46-7c8c-41a4-9482-559673175209/1d038151-168f-4ffb-b417-9434b072fcd3"
-					(reference "#PWR040")
+					(reference "#PWR020")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/5ded5184-e2ac-49e3-930e-56cefbd0c07b"
+					(reference "#PWR018")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/6c6e2f77-a520-4c33-802b-4cccb1bfc372"
+					(reference "#PWR016")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/76acf5c3-ef3f-47ff-8383-3128aca97965"
+					(reference "#PWR012")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/7f460fd9-69ec-437e-be33-f8a5fee7c072"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/acf7ea65-3491-4fbe-948e-6cb01756c81f"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/c1c09749-2db6-4cf0-9aa6-e152b0a77dcd"
+					(reference "#PWR08")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/d42d8dce-7752-4dc1-a310-9649c32d01ec"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3409,7 +3745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5571b13-7032-4334-b274-74785844fbbf")
-		(property "Reference" "RN8"
+		(property "Reference" "RN1"
 			(at 186.69 68.8339 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3497,6 +3833,34 @@
 					(reference "RN8")
 					(unit 1)
 				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/5ded5184-e2ac-49e3-930e-56cefbd0c07b"
+					(reference "RN7")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/6c6e2f77-a520-4c33-802b-4cccb1bfc372"
+					(reference "RN6")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/76acf5c3-ef3f-47ff-8383-3128aca97965"
+					(reference "RN4")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/7f460fd9-69ec-437e-be33-f8a5fee7c072"
+					(reference "RN5")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/acf7ea65-3491-4fbe-948e-6cb01756c81f"
+					(reference "RN3")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/c1c09749-2db6-4cf0-9aa6-e152b0a77dcd"
+					(reference "RN2")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/d42d8dce-7752-4dc1-a310-9649c32d01ec"
+					(reference "RN1")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3512,7 +3876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe94eac7-b139-419d-b8be-a3e8c637e6c4")
-		(property "Reference" "C22"
+		(property "Reference" "C3"
 			(at 82.55 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3576,7 +3940,35 @@
 		(instances
 			(project "LED_DisplayV1"
 				(path "/d4a99f46-7c8c-41a4-9482-559673175209/1d038151-168f-4ffb-b417-9434b072fcd3"
-					(reference "C22")
+					(reference "C10")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/5ded5184-e2ac-49e3-930e-56cefbd0c07b"
+					(reference "C9")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/6c6e2f77-a520-4c33-802b-4cccb1bfc372"
+					(reference "C8")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/76acf5c3-ef3f-47ff-8383-3128aca97965"
+					(reference "C6")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/7f460fd9-69ec-437e-be33-f8a5fee7c072"
+					(reference "C7")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/acf7ea65-3491-4fbe-948e-6cb01756c81f"
+					(reference "C5")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/c1c09749-2db6-4cf0-9aa6-e152b0a77dcd"
+					(reference "C4")
+					(unit 1)
+				)
+				(path "/d4a99f46-7c8c-41a4-9482-559673175209/d42d8dce-7752-4dc1-a310-9649c32d01ec"
+					(reference "C3")
 					(unit 1)
 				)
 			)

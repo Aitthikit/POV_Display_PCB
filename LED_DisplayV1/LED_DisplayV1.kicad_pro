@@ -479,22 +479,52 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.25,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.25,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.4,
+        "microvia_drill": 0.2,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.25,
         "tuning_profile": "",
         "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.25,
+        "microvia_diameter": 0.4,
+        "microvia_drill": 0.2,
+        "name": "1mm",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.25,
+        "microvia_diameter": 0.4,
+        "microvia_drill": 0.2,
+        "name": "2mm",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.0,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.4
       }
     ],
     "meta": {
@@ -502,7 +532,28 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "2mm",
+        "pattern": "Net-(D3-A)"
+      },
+      {
+        "netclass": "1mm",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "2mm",
+        "pattern": "Net-(D1-A)"
+      },
+      {
+        "netclass": "1mm",
+        "pattern": "/LED1/V_led"
+      },
+      {
+        "netclass": "1mm",
+        "pattern": "/LED1/+5V"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -632,7 +683,7 @@
         "uuid": "d4a99f46-7c8c-41a4-9482-559673175209"
       }
     ],
-    "used_designators": "L1,D3-70,#PWR5,#PWR12-14,#PWR23-40,A1,C7-8,C14-22,R2,R5,R11-18,U3-11,RN1-8",
+    "used_designators": "L1,D1-68,#PWR1-20,A1,C1-10,R1-9,RN1-8,U1-9",
     "variants": []
   },
   "sheets": [
