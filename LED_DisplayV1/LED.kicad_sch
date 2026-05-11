@@ -797,146 +797,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Network08"
 			(pin_names
 				(offset 0)
@@ -1836,16 +1696,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 90.17) (xy 92.71 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49acaa6c-48fe-4d8d-89e5-0c77d853a04e")
-	)
-	(wire
-		(pts
 			(xy 228.6 114.3) (xy 228.6 95.25)
 		)
 		(stroke
@@ -1986,7 +1836,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 77.47) (xy 92.71 82.55)
+			(xy 92.71 77.47) (xy 92.71 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2528,116 +2378,6 @@
 				)
 				(path "/d4a99f46-7c8c-41a4-9482-559673175209/d42d8dce-7752-4dc1-a310-9649c32d01ec"
 					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 92.71 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b84d592-4dfe-48cb-ab0b-3e886c47f65b")
-		(property "Reference" "R2"
-			(at 95.25 85.0899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 95.25 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 90.932 86.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 92.71 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7e06af67-7d53-400b-b52a-e130010d00ef")
-		)
-		(pin "2"
-			(uuid "9704c6a6-ea59-4503-b8f6-257b2fd3865d")
-		)
-		(instances
-			(project "LED_DisplayV1"
-				(path "/d4a99f46-7c8c-41a4-9482-559673175209/1d038151-168f-4ffb-b417-9434b072fcd3"
-					(reference "R9")
-					(unit 1)
-				)
-				(path "/d4a99f46-7c8c-41a4-9482-559673175209/5ded5184-e2ac-49e3-930e-56cefbd0c07b"
-					(reference "R8")
-					(unit 1)
-				)
-				(path "/d4a99f46-7c8c-41a4-9482-559673175209/6c6e2f77-a520-4c33-802b-4cccb1bfc372"
-					(reference "R7")
-					(unit 1)
-				)
-				(path "/d4a99f46-7c8c-41a4-9482-559673175209/76acf5c3-ef3f-47ff-8383-3128aca97965"
-					(reference "R5")
-					(unit 1)
-				)
-				(path "/d4a99f46-7c8c-41a4-9482-559673175209/7f460fd9-69ec-437e-be33-f8a5fee7c072"
-					(reference "R6")
-					(unit 1)
-				)
-				(path "/d4a99f46-7c8c-41a4-9482-559673175209/acf7ea65-3491-4fbe-948e-6cb01756c81f"
-					(reference "R4")
-					(unit 1)
-				)
-				(path "/d4a99f46-7c8c-41a4-9482-559673175209/c1c09749-2db6-4cf0-9aa6-e152b0a77dcd"
-					(reference "R3")
-					(unit 1)
-				)
-				(path "/d4a99f46-7c8c-41a4-9482-559673175209/d42d8dce-7752-4dc1-a310-9649c32d01ec"
-					(reference "R2")
 					(unit 1)
 				)
 			)

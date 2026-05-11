@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "height": 1.6,
+          "width": 1.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -552,6 +552,10 @@
       {
         "netclass": "1mm",
         "pattern": "/LED1/+5V"
+      },
+      {
+        "netclass": "1mm",
+        "pattern": "Net-(A2-+5V)"
       }
     ]
   },
@@ -683,7 +687,7 @@
         "uuid": "d4a99f46-7c8c-41a4-9482-559673175209"
       }
     ],
-    "used_designators": "L1,D1-68,#PWR1-20,A1,C1-10,R1-9,RN1-8,U1-9",
+    "used_designators": "U10,#PWR21-22,C11-13,A2",
     "variants": []
   },
   "sheets": [
