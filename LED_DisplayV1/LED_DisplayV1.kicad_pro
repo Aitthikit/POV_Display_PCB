@@ -563,7 +563,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../JLCgerber/",
       "specctra_dsn": "",
       "vrml": ""
     },
