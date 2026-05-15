@@ -39,7 +39,7 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
+          "drill": 0.762,
           "height": 2.0,
           "width": 2.0
         },
@@ -488,58 +488,58 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "LED_DisplayV2.kicad_pro",
+    "filename": "Power_and_MotorV2.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.25,
+        "clearance": 0.18,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.25,
+        "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.4,
-        "microvia_drill": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "clearance": 0.25,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.25,
-        "microvia_diameter": 0.4,
-        "microvia_drill": 0.2,
-        "name": "1mm",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "tuning_profile": "",
         "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "clearance": 0.18,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "HighVolt",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.5,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
         "via_drill": 0.4
       },
       {
-        "clearance": 0.25,
+        "clearance": 0.18,
         "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.25,
-        "microvia_diameter": 0.4,
-        "microvia_drill": 0.2,
-        "name": "2mm",
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "coil",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.0,
+        "track_width": 0.7,
         "tuning_profile": "",
-        "via_diameter": 0.6,
+        "via_diameter": 0.8,
         "via_drill": 0.4
       }
     ],
@@ -550,32 +550,20 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "2mm",
-        "pattern": "Net-(D3-A)"
+        "netclass": "coil",
+        "pattern": "Net-(Q1-B)"
       },
       {
-        "netclass": "1mm",
+        "netclass": "HighVolt",
+        "pattern": "+12V"
+      },
+      {
+        "netclass": "coil",
+        "pattern": "Net-(Q1-C)"
+      },
+      {
+        "netclass": "HighVolt",
         "pattern": "GND"
-      },
-      {
-        "netclass": "2mm",
-        "pattern": "Net-(D1-A)"
-      },
-      {
-        "netclass": "1mm",
-        "pattern": "/LED1/V_led"
-      },
-      {
-        "netclass": "1mm",
-        "pattern": "/LED1/+5V"
-      },
-      {
-        "netclass": "1mm",
-        "pattern": "Net-(A2-+5V)"
-      },
-      {
-        "netclass": "2mm",
-        "pattern": "Net-(A2-VIN)"
       }
     ]
   },
@@ -583,17 +571,17 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "../../JLCgerber/",
+      "plot": "",
       "specctra_dsn": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 20,
+    "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 1
+      "sort_order": 0
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -702,50 +690,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "LED_DisplayV2.kicad_sch",
-        "name": "Root",
-        "uuid": "d4a99f46-7c8c-41a4-9482-559673175209"
+        "filename": "Power_and_MotorV2.kicad_sch",
+        "name": "Power_and_MotorV2",
+        "uuid": "a5ba336c-dd09-4f00-84d5-6fadf1885f61"
       }
     ],
-    "used_designators": "U11-18,D21-28,D69",
+    "used_designators": "D3,SW2",
     "variants": []
   },
   "sheets": [
     [
-      "d4a99f46-7c8c-41a4-9482-559673175209",
-      "Root"
-    ],
-    [
-      "d42d8dce-7752-4dc1-a310-9649c32d01ec",
-      "LED1"
-    ],
-    [
-      "c1c09749-2db6-4cf0-9aa6-e152b0a77dcd",
-      "LED2"
-    ],
-    [
-      "acf7ea65-3491-4fbe-948e-6cb01756c81f",
-      "LED3"
-    ],
-    [
-      "76acf5c3-ef3f-47ff-8383-3128aca97965",
-      "LED4"
-    ],
-    [
-      "7f460fd9-69ec-437e-be33-f8a5fee7c072",
-      "LED5"
-    ],
-    [
-      "6c6e2f77-a520-4c33-802b-4cccb1bfc372",
-      "LED6"
-    ],
-    [
-      "5ded5184-e2ac-49e3-930e-56cefbd0c07b",
-      "LED7"
-    ],
-    [
-      "1d038151-168f-4ffb-b417-9434b072fcd3",
-      "LED8"
+      "a5ba336c-dd09-4f00-84d5-6fadf1885f61",
+      "Power_and_MotorV2"
     ]
   ],
   "text_variables": {},
