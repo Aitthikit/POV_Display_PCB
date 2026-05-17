@@ -7844,6 +7844,30 @@
 		(layer "Edge.Cuts")
 		(uuid "b5f15afa-ee5f-4a72-b1c2-dd658394a299")
 	)
+	(gr_circle
+		(center 187.5 139)
+		(end 190.52 139)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "a08facfd-5c25-4c0b-8109-03e596d2e9e8")
+	)
+	(gr_text "Magnet"
+		(at 194.5 140 45)
+		(layer "B.SilkS")
+		(uuid "bcf23be6-c4b1-4b16-958f-347385f7fe47")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(segment
 		(start 137.861434 81.821419)
 		(end 137.861434 103.548566)
