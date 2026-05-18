@@ -82,9 +82,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "../../PCB_Garber/Royer_coil/")
 		)
 	)
 	(footprint ""
@@ -343,28 +343,6 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "5e3cd828-e781-4321-8726-b475486c9659")
-	)
-	(gr_text "SEK1"
-		(at 117.02 128.58 0)
-		(layer "F.SilkS")
-		(uuid "b8283c76-9155-47bb-a1e7-ee92ca17a236")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "SEK2"
-		(at 183.01 128.49 0)
-		(layer "F.SilkS")
-		(uuid "f2fda1d9-9c22-4f0c-be22-2201bd7c83c3")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.15)
-			)
-		)
 	)
 	(segment
 		(start 176.263376 129.218434)

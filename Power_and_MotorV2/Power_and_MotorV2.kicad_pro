@@ -571,7 +571,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../PCB_Garber/PowerBoard/",
       "specctra_dsn": "",
       "vrml": ""
     },

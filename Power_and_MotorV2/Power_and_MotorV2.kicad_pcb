@@ -121,9 +121,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "../../PCB_Garber/PowerBoard/")
 		)
 	)
 	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
@@ -694,25 +694,8 @@
 		(path "/ead0bd68-0fa8-4a92-bbca-6255ad8852d3")
 		(sheetname "/")
 		(sheetfile "Power_and_MotorV2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 5.08)
-			(end 2.54 7.62)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "d3242745-cac4-4fd1-8919-4c0dec92d5fa")
-		)
 		(fp_line
 			(start 1.27 1.27)
 			(end 1.27 8.89)
@@ -887,7 +870,7 @@
 		(uuid "1ccd9680-f3f5-437a-aa8d-1f0be9d56910")
 		(at 201 55.5 90)
 		(property "Reference" "RV1"
-			(at -10.541 3.033 90)
+			(at -4.5 -7.5 90)
 			(layer "F.SilkS")
 			(uuid "d29cd090-70e9-4fcd-8a4c-6d51412463eb")
 			(effects
@@ -34021,12 +34004,20 @@
 		(uuid "f957a373-cff2-4c3f-9cbd-756e1b7c8cd1")
 	)
 	(segment
-		(start 203.361434 53.401419)
-		(end 203.361434 52.321419)
+		(start 202.5 54.262853)
+		(end 202.5 51.459985)
 		(width 1)
 		(layer "F.Cu")
 		(net "Net-(C4-Pad1)")
-		(uuid "15c98787-f5a0-454d-96b9-3c1d0e648a26")
+		(uuid "2a560872-d86b-4a85-926b-13639610e152")
+	)
+	(segment
+		(start 202.5 51.459985)
+		(end 201.361434 50.321419)
+		(width 1)
+		(layer "F.Cu")
+		(net "Net-(C4-Pad1)")
+		(uuid "53cf69f6-b275-49c3-848b-82344069df8f")
 	)
 	(segment
 		(start 200.58 50)
@@ -34053,20 +34044,12 @@
 		(uuid "704bb598-049a-4de9-8cc6-2481aa35ed6a")
 	)
 	(segment
-		(start 203.361434 52.321419)
-		(end 201.361434 50.321419)
-		(width 1)
-		(layer "F.Cu")
-		(net "Net-(C4-Pad1)")
-		(uuid "7a498bc8-583a-4968-8d51-8de41ef3a7a6")
-	)
-	(segment
 		(start 201.361434 55.401419)
-		(end 203.361434 53.401419)
+		(end 202.5 54.262853)
 		(width 1)
 		(layer "F.Cu")
 		(net "Net-(C4-Pad1)")
-		(uuid "951b6a0f-aee1-4386-a463-dc61158c0bcd")
+		(uuid "da84a496-d695-4154-8bc6-375abd69c950")
 	)
 	(group ""
 		(uuid "5456efe7-ebb8-4a0c-ba50-c7e6dc86cd37")

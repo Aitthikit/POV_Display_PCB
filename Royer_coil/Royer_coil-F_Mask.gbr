@@ -1,23 +1,33 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,10.0.1*%
-%TF.CreationDate,2026-05-12T19:56:47+07:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.2*%
+%TF.CreationDate,2026-05-18T13:32:22+07:00*%
 %TF.ProjectId,Royer_coil,526f7965-725f-4636-9f69-6c2e6b696361,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 10.0.1) date 2026-05-12 19:56:47*
+G04 Created by KiCad (PCBNEW 10.0.2) date 2026-05-18 13:32:22*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
-%ADD10C,2.500000*%
+%ADD10C,2.000000*%
+%ADD11C,2.500000*%
 G04 APERTURE END LIST*
 D10*
-%TO.C, *%
-X112000000Y-72500000D03*
+%TO.C,*%
+X179500000Y-137500000D03*
 %TD*%
-%TO.C, *%
-X188000000Y-72500000D03*
+D11*
+%TO.C,*%
+X108500000Y-78000000D03*
+%TD*%
+D10*
+%TO.C,*%
+X120500000Y-137500000D03*
+%TD*%
+D11*
+%TO.C,*%
+X191500000Y-78000000D03*
 %TD*%
 M02*

@@ -367,7 +367,6 @@
 		(property "Reference" "D10"
 			(at 1.270001 -2.06 135)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "7b088e22-8157-42f2-8d0d-d61308b4404b")
 			(effects
 				(font
@@ -1368,7 +1367,6 @@
 		(property "Reference" "D14"
 			(at 1.270001 -2.06 135)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "07cc7298-d271-4269-b318-3a466b043ae5")
 			(effects
 				(font
@@ -2670,7 +2668,6 @@
 		(property "Reference" "D12"
 			(at 1.270001 -2.06 135)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "e9a1823b-6025-4a4a-9ba6-6def43d4d9fe")
 			(effects
 				(font
@@ -3972,7 +3969,6 @@
 		(property "Reference" "D18"
 			(at 1.270001 -2.06 135)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "4d2780a5-388e-4727-bd12-2bf5ba3224b4")
 			(effects
 				(font
@@ -6525,7 +6521,6 @@
 		(property "Reference" "D19"
 			(at 1.270001 -2.06 135)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "1de59114-7d12-46ba-b109-1c0f7dd0312a")
 			(effects
 				(font
@@ -8031,7 +8026,6 @@
 		(property "Reference" "D11"
 			(at 1.270001 -2.06 135)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "692787d9-c3a1-4af6-af50-6e4ea6f98ac1")
 			(effects
 				(font
@@ -8694,7 +8688,6 @@
 		(property "Reference" "D17"
 			(at 1.270001 -2.06 135)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "879f3c83-6a7d-4a95-a254-51babbda81bd")
 			(effects
 				(font
@@ -12558,7 +12551,6 @@
 		(property "Reference" "D9"
 			(at 1.270001 -2.06 135)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "fb23243a-1874-4780-8c28-eba1ee64f572")
 			(effects
 				(font
@@ -16484,7 +16476,6 @@
 		(property "Reference" "D16"
 			(at 1.270001 -2.06 135)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "c0d661e1-6cd9-4d79-af14-67664ffc27e0")
 			(effects
 				(font
@@ -18224,7 +18215,6 @@
 		(property "Reference" "D13"
 			(at 1.270001 -2.06 135)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "e7681ec0-57b3-4c05-b745-2421e7ebb326")
 			(effects
 				(font
@@ -25179,7 +25169,6 @@
 		(property "Reference" "D15"
 			(at 1.270001 -2.06 135)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "58626698-7888-487a-97db-c3f244f48a69")
 			(effects
 				(font
@@ -27015,7 +27004,6 @@
 		(property "Reference" "D8"
 			(at 1.270001 -2.06 135)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "792e4e76-f79a-4c83-830a-f8fba887fb02")
 			(effects
 				(font
