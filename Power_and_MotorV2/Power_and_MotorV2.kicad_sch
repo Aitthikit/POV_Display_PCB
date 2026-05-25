@@ -3495,7 +3495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_CK_JS202011AQN_DPDT_Angled"
+		(property "Footprint" "SW_footprint:SW_1101M2S3CQE2"
 			(at 189.23 93.98 0)
 			(hide yes)
 			(show_name no)

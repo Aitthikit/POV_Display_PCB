@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "SW_footprint") (type "KiCad") (uri "${KIPRJMOD}/SW_footprint.pretty") (options "") (descr ""))
+)

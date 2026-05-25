@@ -4813,7 +4813,7 @@
 		(fp_text user "K"
 			(at 0 -2.1 90)
 			(layer "F.SilkS")
-			(uuid "3851a1ae-0413-46f0-b6cf-30df06ff4d65")
+			(uuid "8d1006e0-41d4-4fad-9508-db4b5fd4e43c")
 			(effects
 				(font
 					(size 1 1)
@@ -13785,7 +13785,7 @@
 			(at 7.62 35.56 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "dcaf9b25-b0e5-48bd-a7e4-0a079f85cb5e")
+			(uuid "304bc86f-8dbf-4251-a54e-f6ab2d4fe589")
 			(effects
 				(font
 					(size 1 1)

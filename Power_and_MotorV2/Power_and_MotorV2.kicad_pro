@@ -485,7 +485,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Symbol"
+    ]
   },
   "meta": {
     "filename": "Power_and_MotorV2.kicad_pro",
@@ -695,7 +697,7 @@
         "uuid": "a5ba336c-dd09-4f00-84d5-6fadf1885f61"
       }
     ],
-    "used_designators": "D3,SW2",
+    "used_designators": "D3,SW2,S1",
     "variants": []
   },
   "sheets": [
